@@ -3,40 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>practice</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Responsive Portfolio Website Design | KS</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
     <header class="header">
-        <a href="#" class="logo">Abdullah.</a>
+        <a href="#" class="logo">Portfolio.</a>
         <nav class="navbar">
-            <a href="#" class="active">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Portfolio</a>
-            <a href="#">contact</a>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio<a>
+            <a href="#contact">Contact</a>
         </nav>
-
+        <div class="bx bx-moon" id="darkMode-icon"></div>
     </header>
-    <section class="home">
-        <div class="home-content">
-            <h1>Hi,I'm Abdullah Khalid</h1>
-            <h3>Front End Developer</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium facilis ad soluta hic nemo quod obcaecati consequuntur sequi accusamus. Quia optio magni illo doloremque ab fugiat eum.
+<section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello,I am</h3>
+        <h1>Abdullah Khalid</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="social-media">
+        <a href="#" class=""><i class='bx bxl-facebook' ></i></a>
+        <a href="#" class=""><i class='bx bxl-twitter' ></i></a>
+        <a href="#" class=""><i class='bx bxl-instagram' ></i></a>
+        <a href="#" class=""><i class='bx bxl-linkedin' ></i></a>
+    </div>
+    <a href="#" class="btn">Download CV</a>
+    </div>
+<div class="profession-container">
+    <div class="profession-box">
+        <div class="profession" style="--i:0;">
+            <i class='bx bx-code-alt' ></i> 
+            <h3>Web Developer</h3>
+        </div>
+        <div class="profession" style="--i:1;">
+            <i class='bx bx-camera' ></i>
+            <h3>Photographer</h3>
+        </div>
+        <div class="profession" style="--i:2;">
+            <i class='bx bx-palette' ></i>
+            <h3>Web Designer</h3>
+        </div>
+        <div class="profession" style="--i:3;">
+            <i class='bx bx-video-recording' ></i>
+            <h3>VideoGrapher</h3>
+        </div>
 
-            </p>
-            <div class="btn-box">
-                <a href="#">Hire Me</a>
-                <a href="#">Lets Talk</a>
-            </div>
+        <div class="circle"> </div>
+    </div>
+        <div class="overlay"> </div>
+    
+</div>
+<div class="home-img">
+    <img src="" alt="">
+</div>
+</section>
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="" alt="">
+    </div>
+    <div class="about-content">
+        <h2 class="heading">About<span>Me</span></h2>
+        <h3>Hi,I'm Here to Help Your Next Project</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores molestias optio sunt impedit quasi? Incidunt veniam odit alias at autem eum velit, voluptate voluptas dignissimos vel obcaecati placeat soluta ad quasi cumque accusamus. Magnam repellendus quam nulla iste dolorem laudantium.</p>
+    <a href="#" class="btn">Read More</a>
+    </div>
+</section>
+<section class="services" id="services">
+    <h2 class="heading">My<span>Services</span></h2>
+    <div class="services-containe">
+        
+        <div class="services-box">
+            <i class='bx bx-code-alt' ></i>
+            <h3>Web Development</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At assumenda veniam, non alias dolorem fuga nostrum, ab enim nihil ex tempora cupiditate.</p>
+        <a href="#" class="btn">Read More</a>
         </div>
-        <div class="home-sci">
-            <a href="#" ><i class='bx bxl-facebook' ></i></a>
-            <a href="#" ><i class='bx bxl-twitter' ></i></box-icon></a>
-            <a href="#" ><i class='bx bxl-linkedin-square' ></i></a>
-            
+        <div class="services-box">
+            <i class='bx bx-bar-chart-alt' ></i>
+            <h3>Digital Marketing</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At assumenda veniam, non alias dolorem fuga nostrum, ab enim nihil ex tempora cupiditate.</p>
+        <a href="#" class="btn">Read More</a>
         </div>
-    </section>
+        <div class="services-box">
+            <i class='bx bx-paint' ></i>
+            <h3>Graphics Design</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At assumenda veniam, non alias dolorem fuga nostrum, ab enim nihil ex tempora cupiditate.</p>
+        <a href="#" class="btn">Read More</a>
+        </div>
+    </div>
+</section>
+
+<section class="portfolio" id="ortfolio">
+    <h2 class="heading">Latest<span>Project</span></h2>
+    <div class="portfolio-container">
+        <div class="portfolio-box"></div>
+        <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, tempore dolor.</p>
+        <a href="#" class=""><i class='bx bx-link-external' ></i></a>
+        </div>
+    </div>
+</section>
+
+    <script src="js/scrpit.js"></script>
 </body>
 </html>
